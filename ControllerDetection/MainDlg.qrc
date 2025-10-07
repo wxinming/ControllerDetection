@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Resources/Images/activity.ico</file>
+        <file>Resources/Images/add.ico</file>
+        <file>Resources/Images/bird.ico</file>
+        <file>Resources/Images/chrome.ico</file>
+        <file>Resources/Images/collapse.ico</file>
+        <file>Resources/Images/connect.ico</file>
+        <file>Resources/Images/dash.ico</file>
+        <file>Resources/Images/del.ico</file>
+        <file>Resources/Images/disconnect.ico</file>
+        <file>Resources/Images/document.ico</file>
+        <file>Resources/Images/error.png</file>
+        <file>Resources/Images/exit.ico</file>
+        <file>Resources/Images/expand.ico</file>
+        <file>Resources/Images/file.ico</file>
+        <file>Resources/Images/firefox.ico</file>
+        <file>Resources/Images/key.ico</file>
+        <file>Resources/Images/monitor.ico</file>
+        <file>Resources/Images/msg.ico</file>
+        <file>Resources/Images/ng.ico</file>
+        <file>Resources/Images/ok.ico</file>
+        <file>Resources/Images/save.ico</file>
+        <file>Resources/Images/setting.ico</file>
+        <file>Resources/Images/star.ico</file>
+        <file>Resources/Images/store.ico</file>
+        <file>Resources/Images/system.ico</file>
+        <file>Resources/Images/tree.ico</file>
+        <file>Resources/Images/treeExit.ico</file>
+        <file>Resources/Images/上一页.png</file>
+        <file>Resources/Images/上移.png</file>
+        <file>Resources/Images/下一页.png</file>
+        <file>Resources/Images/向右边.png</file>
+        <file>Resources/Images/向左边.png</file>
+        <file>Resources/Images/下移.png</file>
+        <file>Resources/Images/ImageDetection.ico</file>
+        <file>Resources/Images/Maximize-1.png</file>
+        <file>Resources/Images/Maximize-3.png</file>
+        <file>Resources/Images/Minimize-1.png</file>
+        <file>change_logs.txt</file>
+    </qresource>
+</RCC>

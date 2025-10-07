@@ -1,0 +1,2630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingDlg</class>
+ <widget class="QWidget" name="SettingDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_6">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="icon">
+       <iconset resource="MainDlg.qrc">
+        <normaloff>:/Images/Resources/Images/setting.ico</normaloff>:/Images/Resources/Images/setting.ico</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>参数配置</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="minimumSize">
+            <size>
+             <width>350</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>设备配置</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_17">
+              <property name="text">
+               <string>图像分辨率</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="imageResolutionCombo">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>10</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <item>
+               <property name="text">
+                <string>640*480</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>720*480</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>768*480</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>768*576</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>800*480</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>800*600</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>960*540</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>960*640</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1024*576</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1024*600</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1024*768</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QComboBox" name="powerBuadrateCombo">
+              <item>
+               <property name="text">
+                <string>2400</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4800</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9600</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>14400</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>19200</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>28800</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="frameCountCombo">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/bird.ico</normaloff>:/Images/Resources/Images/bird.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/bird.ico</normaloff>:/Images/Resources/Images/bird.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="10" column="0">
+             <widget class="QLabel" name="label_39">
+              <property name="text">
+               <string>CAN拓展帧</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QComboBox" name="canExpandFrame">
+              <item>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/bird.ico</normaloff>:/Images/Resources/Images/bird.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/bird.ico</normaloff>:/Images/Resources/Images/bird.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_38">
+              <property name="text">
+               <string>电源波特率</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_34">
+              <property name="text">
+               <string>电源电流</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_32">
+              <property name="text">
+               <string>电源类型</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_15">
+              <property name="text">
+               <string>画面个数</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QComboBox" name="canNameCombo">
+              <item>
+               <property name="text">
+                <string>ZLG</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/system.ico</normaloff>:/Images/Resources/Images/system.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>ZLGFD</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/system.ico</normaloff>:/Images/Resources/Images/system.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>GCANFD</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/system.ico</normaloff>:/Images/Resources/Images/system.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>不使用</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/system.ico</normaloff>:/Images/Resources/Images/system.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QComboBox" name="captureNameCombo">
+              <item>
+               <property name="text">
+                <string>TCHD</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/store.ico</normaloff>:/Images/Resources/Images/store.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>MIL</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/store.ico</normaloff>:/Images/Resources/Images/store.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>VIDEO</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/store.ico</normaloff>:/Images/Resources/Images/store.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>MV800</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/store.ico</normaloff>:/Images/Resources/Images/store.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QComboBox" name="powerCurrentCombo">
+              <item>
+               <property name="text">
+                <string>1A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>13A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>14A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>15A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>16A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>17A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>18A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>19A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>20A</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/activity.ico</normaloff>:/Images/Resources/Images/activity.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_35">
+              <property name="text">
+               <string>电源串口</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QComboBox" name="powerTypeCombo">
+              <item>
+               <property name="text">
+                <string>单通道</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/star.ico</normaloff>:/Images/Resources/Images/star.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>多通道</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/star.ico</normaloff>:/Images/Resources/Images/star.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>不使用</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/star.ico</normaloff>:/Images/Resources/Images/star.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QComboBox" name="powerPortCombo"/>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="label_37">
+              <property name="text">
+               <string>CAN波特率</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_33">
+              <property name="text">
+               <string>电源电压</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QComboBox" name="canBaudrateCombo">
+              <item>
+               <property name="text">
+                <string>100</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>125</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>200</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>250</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>400</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>500</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>800</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1000</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/monitor.ico</normaloff>:/Images/Resources/Images/monitor.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_40">
+              <property name="text">
+               <string>采集卡名称</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QComboBox" name="powerVoltageCombo">
+              <item>
+               <property name="text">
+                <string>5V</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/dash.ico</normaloff>:/Images/Resources/Images/dash.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9V</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/dash.ico</normaloff>:/Images/Resources/Images/dash.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12V</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/dash.ico</normaloff>:/Images/Resources/Images/dash.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>16V</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/dash.ico</normaloff>:/Images/Resources/Images/dash.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_36">
+              <property name="text">
+               <string>CAN名称</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_4">
+           <property name="title">
+            <string>基本配置</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_30">
+              <property name="text">
+               <string>条码判断</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_31">
+              <property name="text">
+               <string>条码长度</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="codeLengthLine"/>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="codeJudgeLine"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_42">
+              <property name="text">
+               <string>启用判断</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QCheckBox" name="enableUploadCheck">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QCheckBox" name="enableJudgeCheck">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_51">
+              <property name="text">
+               <string>启用上传</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QGroupBox" name="groupBox_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>200</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>300</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>测试配置</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_70">
+              <property name="text">
+               <string>图像算法</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_67">
+              <property name="text">
+               <string>黑色占比</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="whitePercentLine"/>
+            </item>
+            <item row="17" column="1">
+             <widget class="QCheckBox" name="dynamicDetectionCheck">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_69">
+              <property name="text">
+               <string>二值化值</string>
+              </property>
+             </widget>
+            </item>
+            <item row="14" column="1">
+             <widget class="QLineEdit" name="dynamicPercentLine"/>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="blackPercentLine"/>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLineEdit" name="leftColorLine"/>
+            </item>
+            <item row="13" column="0">
+             <widget class="QLabel" name="label_28">
+              <property name="text">
+               <string>判定次数</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_22">
+              <property name="text">
+               <string>检测时间</string>
+              </property>
+             </widget>
+            </item>
+            <item row="18" column="1">
+             <widget class="QCheckBox" name="skipDetectionCheck">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="13" column="1">
+             <widget class="QLineEdit" name="determineCountLine"/>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="frontColorLine"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_24">
+              <property name="text">
+               <string>前景颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="label_27">
+              <property name="text">
+               <string>右景颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLineEdit" name="rearColorLine"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_23">
+              <property name="text">
+               <string>上电等待</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLineEdit" name="binaryThreshLine"/>
+            </item>
+            <item row="15" column="1">
+             <widget class="QLineEdit" name="dynamicThreshLine"/>
+            </item>
+            <item row="18" column="0">
+             <widget class="QLabel" name="label_29">
+              <property name="text">
+               <string>跳过检测</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="imageAlgorithmCombo">
+              <item>
+               <property name="text">
+                <string>黑白占比</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>色彩模型</string>
+               </property>
+               <property name="icon">
+                <iconset resource="MainDlg.qrc">
+                 <normaloff>:/Images/Resources/Images/chrome.ico</normaloff>:/Images/Resources/Images/chrome.ico</iconset>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="14" column="0">
+             <widget class="QLabel" name="label_81">
+              <property name="text">
+               <string>动态占比</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_26">
+              <property name="text">
+               <string>左景颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_25">
+              <property name="text">
+               <string>后景颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="17" column="0">
+             <widget class="QLabel" name="label_80">
+              <property name="text">
+               <string>动态检测</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="powerOnWaitLine"/>
+            </item>
+            <item row="15" column="0">
+             <widget class="QLabel" name="label_82">
+              <property name="text">
+               <string>动态阈值</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QLineEdit" name="rightColorLine"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_68">
+              <property name="text">
+               <string>白色占比</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="detectionTimeLine"/>
+            </item>
+            <item row="16" column="0">
+             <widget class="QLabel" name="label_83">
+              <property name="text">
+               <string>动态频率</string>
+              </property>
+             </widget>
+            </item>
+            <item row="16" column="1">
+             <widget class="QLineEdit" name="dynamicFrequencyLine"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="title">
+            <string>报文配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_19">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>帧ID(HEX)</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="canIdLine">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_21">
+                <property name="text">
+                 <string>间隔(MS)</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="canIntervalLine"/>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_52">
+                <property name="text">
+                 <string>次数</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="canTimesLine"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_20">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>数据(HEX)</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="canDataLine">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="canEnableCheck">
+                <property name="text">
+                 <string>发送</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="icon">
+       <iconset resource="MainDlg.qrc">
+        <normaloff>:/Images/Resources/Images/setting.ico</normaloff>:/Images/Resources/Images/setting.ico</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>矩形配置</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <item>
+          <widget class="QGroupBox" name="rectGroup">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>10</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="title">
+            <string>整体配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>矩形行数</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_41">
+                <property name="text">
+                 <string>通道排列</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QComboBox" name="channelAlignCombo">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>10</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>每列向右数</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/向右边.png</normaloff>:/Images/Resources/Images/向右边.png</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>每行向下数</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/下移.png</normaloff>:/Images/Resources/Images/下移.png</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>正方形向右</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/向右边.png</normaloff>:/Images/Resources/Images/向右边.png</iconset>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="rowCountCombo">
+                <item>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_11">
+                <property name="text">
+                 <string>矩形列数</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QComboBox" name="columnCountCombo">
+                <item>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>Y轴整体偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QSlider" name="overallLRIntervalHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSlider" name="xOffsetHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QSlider" name="overallFRIntervalHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>X轴整体偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>整体前后间隔</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QSlider" name="yOffsetHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>整体左右间隔</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_11">
+           <property name="title">
+            <string>指定行配置</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_11">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_61">
+                <property name="text">
+                 <string>矩形行</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="specifyRowRectCombo">
+                <item>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>3</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_62">
+                <property name="text">
+                 <string>X轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="specifyRowXOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_63">
+                <property name="text">
+                 <string>Y轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="specifyRowYOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_12">
+           <property name="title">
+            <string>指定列配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_12">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_64">
+                <property name="text">
+                 <string>矩形列</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="specifyColumnRectCombo">
+                <item>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>3</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="MainDlg.qrc">
+                   <normaloff>:/Images/Resources/Images/tree.ico</normaloff>:/Images/Resources/Images/tree.ico</iconset>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_65">
+                <property name="text">
+                 <string>X轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="specifyColumnXOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_66">
+                <property name="text">
+                 <string>Y轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="specifyColumnYOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <item>
+          <widget class="QGroupBox" name="groupBox_5">
+           <property name="title">
+            <string>前矩形配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_5">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_53">
+                <property name="text">
+                 <string>X轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSlider" name="frontRectXOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_54">
+                <property name="text">
+                 <string>Y轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="frontRectYOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>宽度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="frontRectWidthHSlider">
+                <property name="minimum">
+                 <number>10</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>高度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSlider" name="frontRectHeightHSlider">
+                <property name="minimum">
+                 <number>15</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_6">
+           <property name="title">
+            <string>后矩形配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_55">
+                <property name="text">
+                 <string>X轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSlider" name="rearRectXOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_56">
+                <property name="text">
+                 <string>Y轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="rearRectYOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_45">
+                <property name="text">
+                 <string>宽度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="rearRectWidthHSlider">
+                <property name="minimum">
+                 <number>10</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_46">
+                <property name="text">
+                 <string>高度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSlider" name="rearRectHeightHSlider">
+                <property name="minimum">
+                 <number>15</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_10">
+           <property name="title">
+            <string>内部配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_10">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>内部前间隔</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSlider" name="internalFrontIntervalHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>内部后间隔</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="internalRearIntervalHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_9">
+                <property name="text">
+                 <string>内部左间隔</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="internalLeftIntervalHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_10">
+                <property name="text">
+                 <string>内部右间隔</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSlider" name="internalRightIntervalHSlider">
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <item>
+          <widget class="QGroupBox" name="groupBox_7">
+           <property name="title">
+            <string>左矩形配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_57">
+                <property name="text">
+                 <string>X轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSlider" name="leftRectXOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_58">
+                <property name="text">
+                 <string>Y轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="leftRectYOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_47">
+                <property name="text">
+                 <string>宽度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="leftRectWidthHSlider">
+                <property name="minimum">
+                 <number>10</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_48">
+                <property name="text">
+                 <string>高度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSlider" name="leftRectHeightHSlider">
+                <property name="minimum">
+                 <number>15</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_8">
+           <property name="title">
+            <string>右矩形配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_8">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_59">
+                <property name="text">
+                 <string>X轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QSlider" name="rightRectXOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_60">
+                <property name="text">
+                 <string>Y轴偏移</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSlider" name="rightRectYOffsetHSlider">
+                <property name="minimum">
+                 <number>-300</number>
+                </property>
+                <property name="maximum">
+                 <number>300</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_49">
+                <property name="text">
+                 <string>宽度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSlider" name="rightRectWidthHSlider">
+                <property name="minimum">
+                 <number>10</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_50">
+                <property name="text">
+                 <string>高度</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSlider" name="rightRectHeightHSlider">
+                <property name="minimum">
+                 <number>15</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_9">
+           <property name="title">
+            <string>启用配置</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_12">
+            <item>
+             <layout class="QGridLayout" name="gridLayout_9">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_18">
+                <property name="text">
+                 <string>显示通道号</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QCheckBox" name="showChannelIdCheck">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QCheckBox" name="showTextCheck">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_16">
+                <property name="text">
+                 <string>显示禁用框</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QCheckBox" name="showDisableCheck">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string>显示文本</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QCheckBox" name="showRectCheck">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_14">
+                <property name="text">
+                 <string>显示矩形框</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_79">
+                <property name="text">
+                 <string>显示二值化</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QCheckBox" name="showBinaryThreshCheck">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="icon">
+       <iconset resource="MainDlg.qrc">
+        <normaloff>:/Images/Resources/Images/setting.ico</normaloff>:/Images/Resources/Images/setting.ico</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>通道配置</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QGroupBox" name="channelGroup">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>20</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>通道配置</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="icon">
+       <iconset resource="MainDlg.qrc">
+        <normaloff>:/Images/Resources/Images/setting.ico</normaloff>:/Images/Resources/Images/setting.ico</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>通用配置</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QGroupBox" name="groupBox_13">
+           <property name="title">
+            <string>前后左右框颜色</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_13">
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="frontRectLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QPushButton" name="frontRectButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/save.ico</normaloff>:/Images/Resources/Images/save.ico</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_71">
+              <property name="text">
+               <string>前矩形框(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_72">
+              <property name="text">
+               <string>后矩形框(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QPushButton" name="leftRectButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QPushButton" name="rightRectButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="rightRectLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="leftRectLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_73">
+              <property name="text">
+               <string>左矩形框(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_74">
+              <property name="text">
+               <string>右矩形框(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="rearRectLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QPushButton" name="rearRectButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_14">
+           <property name="title">
+            <string>字体颜色</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_14">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_75">
+              <property name="text">
+               <string>通道字体(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QPushButton" name="textFontButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="channelFontLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_76">
+              <property name="text">
+               <string>文本字体(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="textFontLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QPushButton" name="channelFontButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_15">
+           <property name="title">
+            <string>禁用框颜色</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_15">
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_78">
+              <property name="text">
+               <string>线条颜色(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="disableRectColorLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_77">
+              <property name="text">
+               <string>矩形颜色(RGB)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QPushButton" name="disableRectColorButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QPushButton" name="disableLineColorButton">
+              <property name="text">
+               <string>选择</string>
+              </property>
+              <property name="icon">
+               <iconset resource="MainDlg.qrc">
+                <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="disableLineColorLine">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="restoreDefaultColorButton">
+           <property name="text">
+            <string>还原为默认颜色</string>
+           </property>
+           <property name="icon">
+            <iconset resource="MainDlg.qrc">
+             <normaloff>:/Images/Resources/Images/firefox.ico</normaloff>:/Images/Resources/Images/firefox.ico</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_16">
+           <property name="title">
+            <string>账户配置</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_16">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_43">
+              <property name="text">
+               <string>用户名称</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="userNameLine"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_44">
+              <property name="text">
+               <string>用户密码</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="userPasswordLine">
+              <property name="echoMode">
+               <enum>QLineEdit::Password</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>保存</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitButton">
+       <property name="text">
+        <string>退出</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/exit.ico</normaloff>:/Images/Resources/Images/exit.ico</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MainDlg.qrc"/>
+ </resources>
+ <connections/>
+</ui>

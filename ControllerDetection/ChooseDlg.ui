@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseDlg</class>
+ <widget class="QWidget" name="ChooseDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>501</width>
+    <height>196</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>高温出画</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>华文行楷</family>
+       <pointsize>36</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="text">
+      <string>高温出画检测</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="destNameLine"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>目标机种</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="nameListCombo"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>机种列表</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>删除</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/del.ico</normaloff>:/Images/Resources/Images/del.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>添加</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/add.ico</normaloff>:/Images/Resources/Images/add.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="copyButton">
+       <property name="text">
+        <string>复制</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/file.ico</normaloff>:/Images/Resources/Images/file.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="renameButton">
+       <property name="text">
+        <string>重命名</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/store.ico</normaloff>:/Images/Resources/Images/store.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="confirmButton">
+       <property name="text">
+        <string>确定</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/connect.ico</normaloff>:/Images/Resources/Images/connect.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="exitButton">
+       <property name="text">
+        <string>退出</string>
+       </property>
+       <property name="icon">
+        <iconset resource="MainDlg.qrc">
+         <normaloff>:/Images/Resources/Images/exit.ico</normaloff>:/Images/Resources/Images/exit.ico</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MainDlg.qrc"/>
+ </resources>
+ <connections/>
+</ui>
