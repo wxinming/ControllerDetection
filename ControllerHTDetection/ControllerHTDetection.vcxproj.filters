@@ -35,10 +35,10 @@
     <ClCompile Include="MainDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <None Include="ControllerDetection.ico">
+    <None Include="ControllerHTDetection.ico">
       <Filter>Resource Files</Filter>
     </None>
-    <ResourceCompile Include="ControllerDetection.rc">
+    <ResourceCompile Include="ControllerHTDetection.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -69,12 +69,15 @@
     <ClInclude Include="Algorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SettingDlgDefine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="change_logs.txt" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ChooseDlg.h">
@@ -103,8 +106,5 @@
     <QtUic Include="SettingDlg.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="change_logs.txt" />
   </ItemGroup>
 </Project>

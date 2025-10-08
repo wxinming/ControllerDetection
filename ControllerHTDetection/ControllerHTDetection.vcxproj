@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C4C178AF-4D25-4941-AE9C-19B880C21839}</ProjectGuid>
+    <ProjectGuid>{D27C284D-13B3-4C2F-96C4-29000594DB66}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0</WindowsTargetPlatformVersion>
@@ -60,16 +60,18 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <IncludePath>E:\Silence\Lib;$(IncludePath)</IncludePath>
     <LibraryPath>E:\Silence\Lib\$(Platform)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>控制器高温老化检测</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
-    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <IncludePath>E:\Silence\Lib;$(IncludePath)</IncludePath>
     <LibraryPath>E:\Silence\Lib\$(Platform)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>控制器高温老化检测</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -134,10 +136,10 @@
     <ClCompile Include="Json.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="main.cpp" />
-    <None Include="ControllerDetection.ico" />
+    <None Include="ControllerHTDetection.ico" />
     <QtUic Include="ScanCodeDlg.ui" />
     <QtUic Include="SettingDlg.ui" />
-    <ResourceCompile Include="ControllerDetection.rc" />
+    <ResourceCompile Include="ControllerHTDetection.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm.h" />
